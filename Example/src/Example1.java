@@ -17,10 +17,10 @@ public class Example1 {
 	   }
 	   
 public static void main(String[] args) throws ParseException {
-	 // Create arrays of Integer, Double and Character
-    Integer[] intArray = { 1, 2, 3, 4, 5 };
-    Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
-    Character[] charArray = { 'H', 'E', 'L', 'L', 'O' };
+    // Create arrays of Integer, Double and Character
+    Integer[] intArray = {1, 2, 3, 4, 5};
+    Double[] doubleArray = {1.1, 2.2, 3.3, 4.4};
+    Character[] charArray = {'H', 'E', 'L', 'L', 'O'};
 
     System.out.println("Array integerArray contains:");
     printArray(intArray);   // pass an Integer array
@@ -30,5 +30,8 @@ public static void main(String[] args) throws ParseException {
 
     System.out.println("\nArray characterArray contains:");
     printArray(charArray);   // pass a Character array
+
+    int[] numbers = new int[0];
+    int length = numbers.length;
 }
 }
