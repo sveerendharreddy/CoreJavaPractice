@@ -48,6 +48,9 @@ public class Test {
                     }
                     return s;
                 })*/
-
+        List<String> strings = Arrays.asList(input.split(""));
+        String s1 = strings.stream()
+                .filter(s -> Collections.frequency(strings, s) == 1).findFirst().get();
+        System.out.println("First Non repeated char "+s1);
     }
 }
