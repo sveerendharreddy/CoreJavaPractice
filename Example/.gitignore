@@ -1,0 +1,5 @@
+# Ignore compiled Java files and build output
+target/
+
+# Ignore IntelliJ IDEA settings and project files
+.idea/
